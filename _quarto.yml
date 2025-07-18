@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - "_includes/"
 
 website:
   title: "Alumni News & Tracking"
@@ -30,23 +32,6 @@ website:
       - icon: envelope
         href: mailto:admin@alumni.org
 
-  sidebar:
-    - title: "News"
-      href: news/index.qmd
-      contents:
-        - news/index.qmd
-        - section: "Kabar Alumni"
-          contents:
-            - news/2025-07-15-alumni-spotlight.qmd
-            - news/2025-07-15-kabar-terbaru.qmd
-    
-    - title: "Alumni"
-      href: alumni/index.qmd
-      contents:
-        - alumni/index.qmd
-        - alumni/directory.qmd
-        - alumni/submit.qmd
-
   page-footer:
     left: "© 2025 Alumni Association"
     right: 
@@ -63,6 +48,9 @@ format:
     toc-depth: 2
     code-fold: true
     code-summary: "Show code"
+    include-before-body: |
+      <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+      <script src="_includes/supabase-client.js"></script>
 
 execute:
   freeze: auto
