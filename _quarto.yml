@@ -1,0 +1,68 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Alumni News & Tracking"
+  description: "Stay connected with our community"
+  
+  navbar:
+    background: primary
+    search: true
+    title: false
+    logo: "ika.png"
+    logo-alt: "IKA Unhas Jabodetabek"
+    logo-height: "10000px"
+    left:
+      - href: index.qmd
+        text: Beranda
+      - href: news/index.qmd
+        text: Kabar Alumni
+      - href: alumni/index.qmd
+        text: Portal Alumni
+      - href: about.qmd
+        text: Tentang
+    right:
+      - icon: instagram
+        href: https://www.instagram.com/ika.unhas.jabodetabek/
+      - icon: github
+        href: https://github.com/yourusername/alumni-website
+      - icon: envelope
+        href: mailto:admin@alumni.org
+
+  sidebar:
+    - title: "News"
+      href: news/index.qmd
+      contents:
+        - news/index.qmd
+        - section: "Kabar Alumni"
+          contents:
+            - news/2025-07-15-alumni-spotlight.qmd
+            - news/2025-07-15-kabar-terbaru.qmd
+    
+    - title: "Alumni"
+      href: alumni/index.qmd
+      contents:
+        - alumni/index.qmd
+        - alumni/directory.qmd
+        - alumni/submit.qmd
+
+  page-footer:
+    left: "© 2025 Alumni Association"
+    right: 
+      - icon: envelope
+        href: mailto:contact@alumni.org
+      - icon: github
+        href: https://github.com/himharis
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    code-summary: "Show code"
+
+execute:
+  freeze: auto

@@ -1,0 +1,41 @@
+---
+title: "Tudang Sipulung Ika Unhas Jabodetabek"
+author: "Admin"
+date: "2025-07-15"
+categories: [activity, alumni gathering]
+---
+
+::: {.gallery}
+
+![](alumni1.jpeg)
+![](alumni2.jpeg)
+![](alumni3.jpeg)
+![](alumni4.jpeg)
+![](alumni5.jpeg)
+
+:::
+
+<div class="gallery-caption">
+  Suasana pertemuan alumni dalam diskusi santai penuh semangat dan kebersamaan pada tanggal 12 july 2025 di Warkop Phoenampungan
+</div>
+
+### Hasil diskusi Tudang Sipulung
+
+- **Pembuatan Direktori Alumni**: menggunakan direktori ini, alumni dapat melakukan pemcarian alumni berdasarkan filter yang diinginkan seperti tahun lulus, jurusan, pekerjaan, dan lain sebagainya.
+- **Pembaharuan Berita Secara Berkala**: Spotlights Bulanan, Pencapain Karir, dan Pengumuman Lowongan Pekerjaan
+- **Formulir Pembaruan yang Mudah**: Kirim informasi terbaru dengan mudah melalui formulir sederhana pada website alumni
+
+### Segera Hadir
+
+- Alumni Database
+  1. **Pencarian Direktori**: Terhubung kembali dengan teman seangkatan dan temukan koneksi baru sesama alumni Unhas di Jabodetabek
+  2. **Kirim Informasi Terbaru Anda**: Bagikan pencapaian dan perkembangan karier
+- Program pendampingan (mentorship)
+- Grup jejaring berdasarkan industri
+- Integrasi layanan karier
+
+Kami sangat antusias membangun komunitas ini bersama Anda dan tak sabar untuk membagikan kisah-kisah sukses Anda!
+
+---
+
+*Pertanyaan lebih lanjut dapat menghubungi kami? Kontak Kami di admin@alumni.org*

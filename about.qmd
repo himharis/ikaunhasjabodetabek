@@ -1,0 +1,30 @@
+---
+title: "About"
+---
+
+## About Our Alumni Network
+
+Our alumni tracking and news platform serves as a central hub for graduates to stay connected, share achievements, and build lasting professional relationships.
+
+### Our Mission
+
+To foster lifelong connections among our graduates and provide a platform for professional growth, networking, and community engagement.
+
+### Features
+
+- **Alumni Directory**: Searchable database of graduates with professional information
+- **News & Updates**: Regular posts about alumni achievements, career moves, and community events
+- **Career Tracking**: Monitor professional progression and success stories
+- **Networking**: Connect with fellow graduates in your field or location
+
+### Contact Us
+
+For questions about the platform or to submit updates, please contact:
+
+- **Email**: admin@alumni.org
+- **Phone**: (555) 123-4567
+- **Address**: 123 University Ave, Campus City, ST 12345
+
+### Privacy Policy
+
+We respect your privacy and handle all personal information according to our privacy policy. Alumni can control their profile visibility and contact preferences.

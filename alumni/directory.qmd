@@ -1,0 +1,59 @@
+---
+title: "Alumni Directory"
+---
+
+## Search Our Alumni Network
+
+*Note: This is a sample directory. In a real implementation, you would integrate with a database or CMS.*
+
+### Search Filters
+
+Use the filters below to find specific alumni:
+
+- **Graduation Year**: 2010-2024
+- **Major/Department**: All departments
+- **Location**: Global
+- **Industry**: All industries
+
+### Directory Listing
+
+#### Class of 2024
+
+**Emma Thompson** | Computer Science  
+*Software Engineer at Microsoft*  
+Location: Seattle, WA  
+[LinkedIn](https://linkedin.com/in/emmathompson) | emma.thompson@email.com
+
+**James Wilson** | Business Administration  
+*Marketing Manager at StartupCorp*  
+Location: New York, NY  
+[LinkedIn](https://linkedin.com/in/jameswilson) | james.wilson@email.com
+
+#### Class of 2023
+
+**Maria Garcia** | Biomedical Engineering  
+*Research Associate at MedTech Labs*  
+Location: Boston, MA  
+[LinkedIn](https://linkedin.com/in/mariagarcia) | maria.garcia@email.com
+
+**Alex Johnson** | Psychology  
+*Clinical Therapist at Community Health*  
+Location: Chicago, IL  
+[LinkedIn](https://linkedin.com/in/alexjohnson) | alex.johnson@email.com
+
+#### Class of 2022
+
+**Ryan Davis** | Mechanical Engineering  
+*Design Engineer at AutoCorp*  
+Location: Detroit, MI  
+[LinkedIn](https://linkedin.com/in/ryandavis) | ryan.davis@email.com
+
+---
+
+### Privacy Notice
+
+Alumni profiles are displayed based on individual privacy preferences. To update your profile or privacy settings, please [submit an update](submit.qmd).
+
+### Not Listed?
+
+If you're an alumnus and don't see your profile, please [submit your information](submit.qmd) to be added to our directory.

@@ -1,0 +1,71 @@
+---
+title: "Jaringan Alumni"
+page-layout: full
+---
+
+## Terhubung dengan sesama alumni unhas di jabodetabek
+
+Jaringan alumni kami tersebar di berbagai industri dan lembaga pemerintahan. Gunakan direktori kami untuk menemukan teman seangkatan, mentor, dan koneksi profesional.
+
+### Quick Stats
+
+::: {.grid}
+
+::: {.g-col-4}
+### 0
+**Total Alumni**
+:::
+
+::: {.g-col-4}
+### 0
+**Sektor Pemerintahan**
+:::
+
+::: {.g-col-4}
+### 0
+**Sektor Swasta**
+:::
+
+::: {.g-col-4}
+### 0
+**Sektor Professional**
+:::
+
+::: {.g-col-4}
+### 0
+**Sektor Mandiri**
+:::
+
+::: {.g-col-4}
+### 0
+**Profil Aktif**
+:::
+
+:::
+
+### Sektor Populer
+
+- Kementerian (0 alumni)
+- BUMN (0 alumni)
+- PEMDA (0 alumni)
+- Professional (0 alumni)
+- Pengusaha (0 alumni)
+
+### Resources
+
+- **[Alumni Directory](directory.qmd)** - Search our complete database
+- **[Submit Updates](submit.qmd)** - Share your achievements
+- **[Career Services](career-services.qmd)** - Professional development resources
+
+### Featured Alumni
+
+#### Recent Updates
+
+| Name | Class Year | Current Role | Company |
+|------|------------|--------------|---------|
+| Sarah Johnson | 2018 | Founder & CEO | InnovateTech Solutions |
+| Michael Chen | 2015 | Senior Director | Global Finance Corp |
+| Lisa Rodriguez | 2020 | Product Manager | TechStart Inc |
+| David Kim | 2017 | Research Scientist | BioMed Research |
+
+[View Full Directory →](directory.qmd)

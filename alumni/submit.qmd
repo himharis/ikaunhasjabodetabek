@@ -1,0 +1,53 @@
+---
+title: "Submit Alumni Updates"
+---
+
+## Share Your Achievements
+
+Help us keep our alumni community informed about your latest professional achievements, career moves, and personal milestones.
+
+### Update Form
+
+*Note: This is a sample form. In a real implementation, you would use a form service like Formspree, Netlify Forms, or a custom backend.*
+
+#### Personal Information
+
+- **Full Name**: ________________
+- **Graduation Year**: ________________
+- **Degree/Major**: ________________
+- **Current Email**: ________________
+
+#### Professional Update
+
+- **Current Position**: ________________
+- **Company/Organization**: ________________
+- **Industry**: ________________
+- **Location**: ________________
+- **LinkedIn Profile**: ________________
+
+#### News & Achievements
+
+Please share any notable achievements, career moves, awards, or other news you'd like to highlight:
+
+
+#### Privacy Preferences
+
+- [ ] Include in alumni directory
+- [ ] Allow contact from other alumni
+- [ ] Include in news updates/spotlights
+- [ ] Share with current students for mentorship
+
+### Submission Guidelines
+
+- Updates are reviewed before publication
+- All information is kept confidential according to your privacy preferences
+- We typically process submissions within 5-7 business days
+- High-impact achievements may be featured in our news section
+
+### Questions?
+
+Contact our alumni relations team at admin@alumni.org or call (555) 123-4567.
+
+---
+
+*Thank you for staying connected with our alumni community!*

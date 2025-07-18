@@ -1,0 +1,53 @@
+---
+title: "Selamat Datang di Portal IKA Unhas Jabodetabek"
+page-layout: full
+title-block-banner: false
+---
+
+Tetap terhubung dengan sesama lulusan, ikuti perkembangan karier mereka, dan temukan berita terbaru dari jaringan alumni kami yang dinamis.
+
+<div class="news-section">
+
+### Kabar Terbaru
+
+::: {.grid}
+::: {.g-col-6}
+### Sorotan Alumni Terbaru
+Simak cerita Andi Afdal Abdullah dari dokter hingga menjadi Direktur BPJS Kesehatan RI.
+[Baca Lebih Lanjut →](news/2024-02-20-alumni-spotlight.qmd)
+:::
+::: {.g-col-6}
+### Kabar Alumni Terbaru
+Selamat datang di Kabar Kegiatan Alumni Terbaru.
+[Baca Lebih Lanjut →](news/2024-01-15-welcome.qmd)
+:::
+:::
+
+</div>
+
+<div class="quick-links">
+
+### Quick Links
+
+- **[Alumni Directory](alumni/directory.qmd)** - Find and connect with fellow graduates
+- **[Submit Updates](alumni/submit.qmd)** - Share your latest achievements
+- **[News Archive](news/index.qmd)** - Browse all news and updates
+
+</div>
+
+<div class="stats-section">
+
+### By the Numbers
+
+| Metric | Count |
+|--------|-------|
+| Total Alumni | 0 |
+| Countries Represented | 0 |
+| Active Profiles |0 |
+| Recent Updates | 0 |
+
+</div>
+
+---
+
+*Last updated: {{< meta date >}}*

@@ -1,0 +1,183 @@
+/* Custom styling for the alumni website */
+
+/* Color scheme */
+:root {
+  --primary-color: #DC3545;
+  --secondary-color: #800020;
+  --accent-color: #F39C12;
+  --text-color: #2C3E50;
+  --light-bg: #F8F9FA;
+  --card-bg: #FFFFFF;
+  --border-color: #E1E8ED;
+  --success-color: #27AE60;
+  --highlight-color: #FEF2F2;
+}
+
+/* Navbar styling */
+.navbar-brand > img {
+  max-height: 70px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.3rem;
+  font-weight: 550;
+  color: #fff !important;
+}
+
+nav.navbar {
+  background-color: #DC3545 !important;
+  background: #DC3545 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Welcome section styling */
+.welcome-section {
+  background-color: var(--card-bg);
+  border-left: 4px solid var(--accent-color);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* News section styling */
+.news-section {
+  background-color: var(--highlight-color);
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+/* Quick links section styling */
+.quick-links {
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 2rem 0;
+}
+
+/* Stats section styling */
+.stats-section {
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 2rem 0;
+}
+
+/* Alumni stats grid */
+.g-col-4 {
+  text-align: center;
+  padding: 20px;
+  background: var(--bg-color);
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.g-col-4 h3 {
+  color: var(--secondary-color);
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+/* Directory styling */
+.alumni-profile {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  background: white;
+}
+
+.alumni-profile h4 {
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+/* News post styling */
+.news-post {
+  border-left: 4px solid var(--secondary-color);
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+/* Form styling */
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background: var(--secondary-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--primary-color);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .g-col-4 {
+    margin: 5px 0;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ========== GALLERY STYLING ========== */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+/* Each image */
+.gallery img {
+  width: calc(50% - 0.5rem); /* 2 per row */
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Responsive: single column on mobile */
+@media (max-width: 768px) {
+  .gallery img {
+    width: 80%;
+  }
+}
+
+/* Special centering for the last image if it's alone in the row */
+.gallery::after {
+  content: "";
+  flex: 0 0 calc(50% - 0.5rem); /* dummy block to fill space */
+}
+
+/* Optional: center the last image if odd number */
+.gallery img:last-child:nth-child(odd):nth-last-child(1) {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.gallery-caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 1rem;
+}

@@ -1,0 +1,16 @@
+---
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  page-size: 10
+page-layout: full
+title-block-banner: true
+---
+
+Tetap terhubung dengan kabar terkini, pencapaian, dan kisah inspiratif dari para alumni Unhas.
+
+## Kabar Terbaru
