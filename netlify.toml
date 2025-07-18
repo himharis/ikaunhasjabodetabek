@@ -1,0 +1,19 @@
+[build]
+  command = "quarto render"
+  publish = "_site"
+
+[build.environment]
+  QUARTO_VERSION = "1.4.550"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
