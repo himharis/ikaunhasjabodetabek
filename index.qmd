@@ -13,13 +13,13 @@ Tetap terhubung dengan sesama lulusan, ikuti perkembangan karier mereka, dan tem
 ::: {.grid}
 ::: {.g-col-6}
 ### Sorotan Alumni Terbaru
-Simak cerita Andi Afdal Abdullah dari dokter hingga menjadi Direktur BPJS Kesehatan RI.
-[Baca Lebih Lanjut →](news/2024-02-20-alumni-spotlight.qmd)
+Simak cerita Dr. dr. Andi Afdal Abdullah, MBA, AAK dari dokter hingga menjadi Direktur BPJS Kesehatan RI.
+[Baca Lebih Lanjut →](news/2025-07-15-alumni-spotlight.qmd)
 :::
 ::: {.g-col-6}
-### Kabar Alumni Terbaru
-Selamat datang di Kabar Kegiatan Alumni Terbaru.
-[Baca Lebih Lanjut →](news/2024-01-15-welcome.qmd)
+### Tudang Sipulung Alumni
+Hasil diskusi dan rencana pengembangan portal alumni IKA Unhas Jabodetabek.
+[Baca Lebih Lanjut →](news/2025-07-15-kabar-terbaru.qmd)
 :::
 :::
 

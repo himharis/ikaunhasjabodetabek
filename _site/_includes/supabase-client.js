@@ -11,7 +11,7 @@ class AlumniAPI {
             .select('*')
             .eq('is_active', true)
             .eq('privacy_directory', true)
-            .order('graduation_year', { ascending: false });
+            .order('tahun_lulus', { ascending: false });
 
         if (filters.graduation_year) {
             query = query.eq('tahun_lulus', filters.graduation_year);
@@ -44,19 +44,19 @@ class AlumniAPI {
         };
 
         data.forEach(alumni => {
-            // Count by industry
-            if (alumni.industry) {
-                stats.byIndustry[alumni.industry] = (stats.byIndustry[alumni.industry] || 0) + 1;
+            // Count by industry - Fixed property names
+            if (alumni.industri) {
+                stats.byIndustry[alumni.industri] = (stats.byIndustry[alumni.industri] || 0) + 1;
             }
             
-            // Count by location
-            if (alumni.location) {
-                stats.byLocation[alumni.location] = (stats.byLocation[alumni.location] || 0) + 1;
+            // Count by location - Fixed property names
+            if (alumni.lokasi) {
+                stats.byLocation[alumni.lokasi] = (stats.byLocation[alumni.lokasi] || 0) + 1;
             }
             
-            // Count by year
-            if (alumni.graduation_year) {
-                stats.byYear[alumni.graduation_year] = (stats.byYear[alumni.graduation_year] || 0) + 1;
+            // Count by year - Fixed property names
+            if (alumni.tahun_lulus) {
+                stats.byYear[alumni.tahun_lulus] = (stats.byYear[alumni.tahun_lulus] || 0) + 1;
             }
         });
 
@@ -100,3 +100,7 @@ class NewsAPI {
         return data;
     }
 }
+
+// Make APIs available globally
+window.AlumniAPI = AlumniAPI;
+window.NewsAPI = NewsAPI;

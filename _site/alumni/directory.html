@@ -166,49 +166,40 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="search-our-alumni-network" class="level2">
 <h2 class="anchored" data-anchor-id="search-our-alumni-network">Search Our Alumni Network</h2>
-<p><em>Note: This is a sample directory. In a real implementation, you would integrate with a database or CMS.</em></p>
+<p>Use the filters below to find specific alumni:</p>
 <section id="search-filters" class="level3">
 <h3 class="anchored" data-anchor-id="search-filters">Search Filters</h3>
-<p>Use the filters below to find specific alumni:</p>
-<ul>
-<li><strong>Graduation Year</strong>: 2010-2024</li>
-<li><strong>Major/Department</strong>: All departments</li>
-<li><strong>Location</strong>: Global</li>
-<li><strong>Industry</strong>: All industries</li>
-</ul>
+<div class="filter-section">
+<div class="filter-group">
+<p><label for="year-filter">Graduation Year:</label> <select id="year-filter"> <option value="">All Years</option> </select></p>
+</div>
+<div class="filter-group">
+<p><label for="industry-filter">Industry:</label> <select id="industry-filter"> <option value="">All Industries</option> </select></p>
+</div>
+<div class="filter-group">
+<p><label for="location-filter">Location:</label> <input type="text" id="location-filter" placeholder="Enter location"></p>
+</div>
+<button onclick="searchAlumni()">
+Search
+</button>
+<button onclick="clearFilters()">
+Clear
+</button>
+</div>
 </section>
 <section id="directory-listing" class="level3">
 <h3 class="anchored" data-anchor-id="directory-listing">Directory Listing</h3>
-<section id="class-of-2024" class="level4">
-<h4 class="anchored" data-anchor-id="class-of-2024">Class of 2024</h4>
-<p><strong>Emma Thompson</strong> | Computer Science<br>
-<em>Software Engineer at Microsoft</em><br>
-Location: Seattle, WA<br>
-<a href="https://linkedin.com/in/emmathompson">LinkedIn</a> | emma.thompson@email.com</p>
-<p><strong>James Wilson</strong> | Business Administration<br>
-<em>Marketing Manager at StartupCorp</em><br>
-Location: New York, NY<br>
-<a href="https://linkedin.com/in/jameswilson">LinkedIn</a> | james.wilson@email.com</p>
-</section>
-<section id="class-of-2023" class="level4">
-<h4 class="anchored" data-anchor-id="class-of-2023">Class of 2023</h4>
-<p><strong>Maria Garcia</strong> | Biomedical Engineering<br>
-<em>Research Associate at MedTech Labs</em><br>
-Location: Boston, MA<br>
-<a href="https://linkedin.com/in/mariagarcia">LinkedIn</a> | maria.garcia@email.com</p>
-<p><strong>Alex Johnson</strong> | Psychology<br>
-<em>Clinical Therapist at Community Health</em><br>
-Location: Chicago, IL<br>
-<a href="https://linkedin.com/in/alexjohnson">LinkedIn</a> | alex.johnson@email.com</p>
-</section>
-<section id="class-of-2022" class="level4">
-<h4 class="anchored" data-anchor-id="class-of-2022">Class of 2022</h4>
-<p><strong>Ryan Davis</strong> | Mechanical Engineering<br>
-<em>Design Engineer at AutoCorp</em><br>
-Location: Detroit, MI<br>
-<a href="https://linkedin.com/in/ryandavis">LinkedIn</a> | ryan.davis@email.com</p>
+<div id="alumni-results">
+<p>
+Loading alumni directory…
+</p>
+</div>
+<div id="no-results" style="display: none;">
+<p>
+No alumni found matching your criteria. Try adjusting your filters.
+</p>
+</div>
 <hr>
-</section>
 </section>
 <section id="privacy-notice" class="level3">
 <h3 class="anchored" data-anchor-id="privacy-notice">Privacy Notice</h3>
@@ -217,6 +208,194 @@ Location: Detroit, MI<br>
 <section id="not-listed" class="level3">
 <h3 class="anchored" data-anchor-id="not-listed">Not Listed?</h3>
 <p>If you’re an alumnus and don’t see your profile, please <a href="../alumni/submit.html">submit your information</a> to be added to our directory.</p>
+<script>
+let allAlumni = [];
+let filteredAlumni = [];
+
+// Load alumni data and populate filters
+document.addEventListener('DOMContentLoaded', async function() {
+    try {
+        // Load all alumni
+        allAlumni = await AlumniAPI.getAlumni();
+        filteredAlumni = allAlumni;
+        
+        // Populate filter options
+        populateFilters();
+        
+        // Display initial results
+        displayAlumni(filteredAlumni);
+        
+    } catch (error) {
+        console.error('Error loading alumni:', error);
+        document.getElementById('alumni-results').innerHTML = 
+            '<p>Error loading alumni directory. Please try again later.</p>';
+    }
+});
+
+function populateFilters() {
+    // Populate year filter
+    const yearFilter = document.getElementById('year-filter');
+    const years = [...new Set(allAlumni.map(a => a.tahun_lulus).filter(y => y))].sort((a, b) => b - a);
+    years.forEach(year => {
+        const option = document.createElement('option');
+        option.value = year;
+        option.textContent = year;
+        yearFilter.appendChild(option);
+    });
+    
+    // Populate industry filter
+    const industryFilter = document.getElementById('industry-filter');
+    const industries = [...new Set(allAlumni.map(a => a.industri).filter(i => i))].sort();
+    industries.forEach(industry => {
+        const option = document.createElement('option');
+        option.value = industry;
+        option.textContent = industry;
+        industryFilter.appendChild(option);
+    });
+}
+
+function searchAlumni() {
+    const yearFilter = document.getElementById('year-filter').value;
+    const industryFilter = document.getElementById('industry-filter').value;
+    const locationFilter = document.getElementById('location-filter').value.toLowerCase();
+    
+    filteredAlumni = allAlumni.filter(alumni => {
+        const yearMatch = !yearFilter || alumni.tahun_lulus == yearFilter;
+        const industryMatch = !industryFilter || alumni.industri === industryFilter;
+        const locationMatch = !locationFilter || 
+            (alumni.lokasi && alumni.lokasi.toLowerCase().includes(locationFilter));
+        
+        return yearMatch && industryMatch && locationMatch;
+    });
+    
+    displayAlumni(filteredAlumni);
+}
+
+function clearFilters() {
+    document.getElementById('year-filter').value = '';
+    document.getElementById('industry-filter').value = '';
+    document.getElementById('location-filter').value = '';
+    
+    filteredAlumni = allAlumni;
+    displayAlumni(filteredAlumni);
+}
+
+function displayAlumni(alumni) {
+    const resultsDiv = document.getElementById('alumni-results');
+    const noResultsDiv = document.getElementById('no-results');
+    
+    if (alumni.length === 0) {
+        resultsDiv.style.display = 'none';
+        noResultsDiv.style.display = 'block';
+        return;
+    }
+    
+    resultsDiv.style.display = 'block';
+    noResultsDiv.style.display = 'none';
+    
+    // Group alumni by graduation year
+    const groupedAlumni = {};
+    alumni.forEach(alumnus => {
+        const year = alumnus.tahun_lulus || 'Unknown';
+        if (!groupedAlumni[year]) {
+            groupedAlumni[year] = [];
+        }
+        groupedAlumni[year].push(alumnus);
+    });
+    
+    // Sort years in descending order
+    const sortedYears = Object.keys(groupedAlumni).sort((a, b) => {
+        if (a === 'Unknown') return 1;
+        if (b === 'Unknown') return -1;
+        return b - a;
+    });
+    
+    let html = '';
+    sortedYears.forEach(year => {
+        html += `<h4>Class of ${year}</h4>`;
+        groupedAlumni[year].forEach(alumnus => {
+            html += `
+                <div class="alumni-profile">
+                    <h5><strong>${alumnus.nama || 'N/A'}</strong> | ${alumnus.jurusan || 'N/A'}</h5>
+                    <p><em>${alumnus.posisi_saat_ini || 'N/A'} at ${alumnus.perusahaan || 'N/A'}</em></p>
+                    <p>Location: ${alumnus.lokasi || 'N/A'}</p>
+                    <p>Industry: ${alumnus.industri || 'N/A'}</p>
+                    ${alumnus.linkedin ? `<p><a href="${alumnus.linkedin}" target="_blank">LinkedIn</a></p>` : ''}
+                    ${alumnus.email ? `<p><a href="mailto:${alumnus.email}">${alumnus.email}</a></p>` : ''}
+                </div>
+            `;
+        });
+    });
+    
+    resultsDiv.innerHTML = html;
+}
+</script>
+<style>
+.filter-section {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.filter-group select, .filter-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.alumni-profile {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.alumni-profile h5 {
+    color: #DC3545;
+    margin-bottom: 10px;
+}
+
+.alumni-profile p {
+    margin: 5px 0;
+}
+
+.alumni-profile a {
+    color: #DC3545;
+    text-decoration: none;
+}
+
+.alumni-profile a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: #DC3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background: #800020;
+}
+</style>
 
 
 </section>

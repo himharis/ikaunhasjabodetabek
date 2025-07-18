@@ -4,58 +4,42 @@
     "href": "alumni/directory.html",
     "title": "Alumni Directory",
     "section": "",
-    "text": "Note: This is a sample directory. In a real implementation, you would integrate with a database or CMS.\n\n\nUse the filters below to find specific alumni:\n\nGraduation Year: 2010-2024\nMajor/Department: All departments\nLocation: Global\nIndustry: All industries\n\n\n\n\n\n\nEmma Thompson | Computer Science\nSoftware Engineer at Microsoft\nLocation: Seattle, WA\nLinkedIn | emma.thompson@email.com\nJames Wilson | Business Administration\nMarketing Manager at StartupCorp\nLocation: New York, NY\nLinkedIn | james.wilson@email.com\n\n\n\nMaria Garcia | Biomedical Engineering\nResearch Associate at MedTech Labs\nLocation: Boston, MA\nLinkedIn | maria.garcia@email.com\nAlex Johnson | Psychology\nClinical Therapist at Community Health\nLocation: Chicago, IL\nLinkedIn | alex.johnson@email.com\n\n\n\nRyan Davis | Mechanical Engineering\nDesign Engineer at AutoCorp\nLocation: Detroit, MI\nLinkedIn | ryan.davis@email.com\n\n\n\n\n\nAlumni profiles are displayed based on individual privacy preferences. To update your profile or privacy settings, please submit an update.\n\n\n\nIf you’re an alumnus and don’t see your profile, please submit your information to be added to our directory."
+    "text": "Use the filters below to find specific alumni:\n\n\n\n\nGraduation Year:  All Years \n\n\nIndustry:  All Industries \n\n\nLocation: \n\n\nSearch\n\n\nClear\n\n\n\n\n\n\n\nLoading alumni directory…\n\n\n\n\nNo alumni found matching your criteria. Try adjusting your filters.\n\n\n\n\n\n\nAlumni profiles are displayed based on individual privacy preferences. To update your profile or privacy settings, please submit an update.\n\n\n\nIf you’re an alumnus and don’t see your profile, please submit your information to be added to our directory."
   },
   {
     "objectID": "alumni/directory.html#search-our-alumni-network",
     "href": "alumni/directory.html#search-our-alumni-network",
     "title": "Alumni Directory",
     "section": "",
-    "text": "Note: This is a sample directory. In a real implementation, you would integrate with a database or CMS.\n\n\nUse the filters below to find specific alumni:\n\nGraduation Year: 2010-2024\nMajor/Department: All departments\nLocation: Global\nIndustry: All industries\n\n\n\n\n\n\nEmma Thompson | Computer Science\nSoftware Engineer at Microsoft\nLocation: Seattle, WA\nLinkedIn | emma.thompson@email.com\nJames Wilson | Business Administration\nMarketing Manager at StartupCorp\nLocation: New York, NY\nLinkedIn | james.wilson@email.com\n\n\n\nMaria Garcia | Biomedical Engineering\nResearch Associate at MedTech Labs\nLocation: Boston, MA\nLinkedIn | maria.garcia@email.com\nAlex Johnson | Psychology\nClinical Therapist at Community Health\nLocation: Chicago, IL\nLinkedIn | alex.johnson@email.com\n\n\n\nRyan Davis | Mechanical Engineering\nDesign Engineer at AutoCorp\nLocation: Detroit, MI\nLinkedIn | ryan.davis@email.com\n\n\n\n\n\nAlumni profiles are displayed based on individual privacy preferences. To update your profile or privacy settings, please submit an update.\n\n\n\nIf you’re an alumnus and don’t see your profile, please submit your information to be added to our directory."
+    "text": "Use the filters below to find specific alumni:\n\n\n\n\nGraduation Year:  All Years \n\n\nIndustry:  All Industries \n\n\nLocation: \n\n\nSearch\n\n\nClear\n\n\n\n\n\n\n\nLoading alumni directory…\n\n\n\n\nNo alumni found matching your criteria. Try adjusting your filters.\n\n\n\n\n\n\nAlumni profiles are displayed based on individual privacy preferences. To update your profile or privacy settings, please submit an update.\n\n\n\nIf you’re an alumnus and don’t see your profile, please submit your information to be added to our directory."
   },
   {
     "objectID": "alumni/index.html",
     "href": "alumni/index.html",
     "title": "Jaringan Alumni",
     "section": "",
-    "text": "Jaringan alumni kami tersebar di berbagai industri dan lembaga pemerintahan. Gunakan direktori kami untuk menemukan teman seangkatan, mentor, dan koneksi profesional.\n\n\n\n\n\n\nTotal Alumni\n\n\n\nSektor Pemerintahan\n\n\n\nSektor Swasta\n\n\n\nSektor Professional\n\n\n\nSektor Mandiri\n\n\n\nProfil Aktif\n\n\n\n\n\nKementerian (0 alumni)\nBUMN (0 alumni)\nPEMDA (0 alumni)\nProfessional (0 alumni)\nPengusaha (0 alumni)\n\n\n\n\n\nAlumni Directory - Search our complete database\nSubmit Updates - Share your achievements\nCareer Services - Professional development resources\n\n\n\n\n\n\n\n\n\nName\nClass Year\nCurrent Role\nCompany\n\n\n\n\nSarah Johnson\n2018\nFounder & CEO\nInnovateTech Solutions\n\n\nMichael Chen\n2015\nSenior Director\nGlobal Finance Corp\n\n\nLisa Rodriguez\n2020\nProduct Manager\nTechStart Inc\n\n\nDavid Kim\n2017\nResearch Scientist\nBioMed Research\n\n\n\nView Full Directory →",
-    "crumbs": [
-      "Portal Alumni",
-      "Jaringan Alumni"
-    ]
+    "text": "Jaringan alumni kami tersebar di berbagai industri dan lembaga pemerintahan. Gunakan direktori kami untuk menemukan teman seangkatan, mentor, dan koneksi profesional.\n\n\n\n\n\n\nTotal Alumni\n\n\n\nSektor Pemerintahan\n\n\n\nSektor Swasta\n\n\n\nSektor Professional\n\n\n\nSektor Mandiri\n\n\n\nProfil Aktif\n\n\n\n\n\n\nMemuat data…\n\n\n\n\n\n\nAlumni Directory - Search our complete database\nSubmit Updates - Share your achievements\nCareer Services - Professional development resources\n\n\n\n\n\n\n\n\n\n\n\nName\n\n\nClass Year\n\n\nCurrent Role\n\n\nCompany\n\n\n\n\n\n\nMemuat data…\n\n\n\n\n\nView Full Directory →"
   },
   {
-    "objectID": "alumni/index.html#connect-with-fellow-graduates",
-    "href": "alumni/index.html#connect-with-fellow-graduates",
+    "objectID": "alumni/index.html#terhubung-dengan-sesama-alumni-unhas-di-jabodetabek",
+    "href": "alumni/index.html#terhubung-dengan-sesama-alumni-unhas-di-jabodetabek",
     "title": "Jaringan Alumni",
     "section": "",
-    "text": "Our alumni network spans across industries and continents. Use our directory to find classmates, mentors, and professional connections.\n\n\n\n\n\n\nTotal Alumni\n\n\n\nCountries\n\n\n\nActive Profiles\n\n\n\n\n\nTechnology (485 alumni)\nHealthcare (312 alumni)\nFinance (298 alumni)\nEducation (267 alumni)\nEngineering (234 alumni)\n\n\n\n\n\nAlumni Directory - Search our complete database\nSubmit Updates - Share your achievements\nCareer Services - Professional development resources\n\n\n\n\n\n\n\n\n\nName\nClass Year\nCurrent Role\nCompany\n\n\n\n\nSarah Johnson\n2018\nFounder & CEO\nInnovateTech Solutions\n\n\nMichael Chen\n2015\nSenior Director\nGlobal Finance Corp\n\n\nLisa Rodriguez\n2020\nProduct Manager\nTechStart Inc\n\n\nDavid Kim\n2017\nResearch Scientist\nBioMed Research\n\n\n\nView Full Directory →",
-    "crumbs": [
-      "Portal Alumni",
-      "Jaringan Alumni"
-    ]
+    "text": "Jaringan alumni kami tersebar di berbagai industri dan lembaga pemerintahan. Gunakan direktori kami untuk menemukan teman seangkatan, mentor, dan koneksi profesional.\n\n\n\n\n\n\nTotal Alumni\n\n\n\nSektor Pemerintahan\n\n\n\nSektor Swasta\n\n\n\nSektor Professional\n\n\n\nSektor Mandiri\n\n\n\nProfil Aktif\n\n\n\n\n\n\nMemuat data…\n\n\n\n\n\n\nAlumni Directory - Search our complete database\nSubmit Updates - Share your achievements\nCareer Services - Professional development resources\n\n\n\n\n\n\n\n\n\n\n\nName\n\n\nClass Year\n\n\nCurrent Role\n\n\nCompany\n\n\n\n\n\n\nMemuat data…\n\n\n\n\n\nView Full Directory →"
   },
   {
-    "objectID": "news/2024-02-20-alumni-spotlight.html",
-    "href": "news/2024-02-20-alumni-spotlight.html",
-    "title": "Alumni Spotlight: Dr. dr. Andi Afdal Abdullah, MBA, AAK",
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "Alumni News & Tracking",
     "section": "",
-    "text": "Dr. dr. Andi Afdal Abdullah, MBA, AAK",
-    "crumbs": [
-      "Kabar Alumni",
-      "Alumni Spotlight: Dr. dr. Andi Afdal Abdullah, MBA, AAK"
-    ]
+    "text": "Tetap terhubung dengan kabar terkini, pencapaian, dan kisah inspiratif dari para alumni Unhas."
   },
   {
-    "objectID": "news/2024-02-20-alumni-spotlight.html#from-graduate-to-startup-founder",
-    "href": "news/2024-02-20-alumni-spotlight.html#from-graduate-to-startup-founder",
-    "title": "Alumni Spotlight: Andi Afdal Abdullah",
-    "section": "",
-    "text": "We’re excited to feature Sarah Johnson (Class of 2018) in this month’s alumni spotlight. Sarah has recently launched her own tech startup, InnovateTech Solutions, which focuses on sustainable technology solutions for small businesses.\n\n\nAfter graduating with a degree in Computer Science, Sarah began her career at a major tech company where she gained valuable experience in product development and team leadership. Three years later, she took the leap into entrepreneurship.\n\n“The critical thinking skills and problem-solving approach I learned during my studies have been invaluable in building my own company.” - Sarah Johnson\n\n\n\n\nInnovateTech Solutions specializes in:\n\nSustainable software development\nGreen technology consulting\nSmall business digital transformation\nEnvironmental impact assessment tools\n\n\n\n\nSarah plans to expand her team and is actively looking to hire fellow alumni. She’s also mentoring current students interested in entrepreneurship.\n\n\n\n\nLinkedIn: linkedin.com/in/sarahjohnson\nCompany Website: innovatetech.com\nEmail: sarah@innovatetech.com\n\n\nKnow an alumnus who should be featured? Submit a nomination",
-    "crumbs": [
-      "Kabar Alumni",
-      "Alumni Spotlight: Andi Afdal Abdullah"
-    ]
+    "objectID": "news/index.html#kabar-terbaru",
+    "href": "news/index.html#kabar-terbaru",
+    "title": "Alumni News & Tracking",
+    "section": "Kabar Terbaru",
+    "text": "Kabar Terbaru"
   },
   {
     "objectID": "about.html",
@@ -76,171 +60,41 @@
     "href": "index.html",
     "title": "Selamat Datang di Portal IKA Unhas Jabodetabek",
     "section": "",
-    "text": "Tetap terhubung dengan sesama lulusan, ikuti perkembangan karier mereka, dan temukan berita terbaru dari jaringan alumni kami yang dinamis.\n\n\nKabar Terbaru\n\n\n\nSorotan Alumni Terbaru\nSimak cerita Andi Afdal Abdullah dari dokter hingga menjadi Direktur BPJS Kesehatan RI. Baca Lebih Lanjut →\n\n\nKabar Alumni Terbaru\nSelamat datang di Kabar Kegiatan Alumni Terbaru. Baca Lebih Lanjut →\n\n\n\n\nQuick Links\n\nAlumni Directory - Find and connect with fellow graduates\nSubmit Updates - Share your latest achievements\nNews Archive - Browse all news and updates\n\n\n\nBy the Numbers\n\n\n\nMetric\nCount\n\n\n\n\nTotal Alumni\n0\n\n\nCountries Represented\n0\n\n\nActive Profiles\n0\n\n\nRecent Updates\n0\n\n\n\n\n\nLast updated: ?meta:date"
-  },
-  {
-    "objectID": "news/index.html",
-    "href": "news/index.html",
-    "title": "Alumni News & Tracking",
-    "section": "",
-    "text": "Tetap terhubung dengan kabar terkini, pencapaian, dan kisah inspiratif dari para alumni Unhas.",
-    "crumbs": [
-      "Kabar Alumni",
-      "Kabar Terbaru"
-    ]
-  },
-  {
-    "objectID": "news/index.html#recent-posts",
-    "href": "news/index.html#recent-posts",
-    "title": "Alumni News & Tracking",
-    "section": "Recent Posts",
-    "text": "Recent Posts",
-    "crumbs": [
-      "Kabar Alumni",
-      "Recent Posts"
-    ]
-  },
-  {
-    "objectID": "news/2024-01-15-welcome.html",
-    "href": "news/2024-01-15-welcome.html",
-    "title": "Tudang Sipulung Ika Unhas Jabodetabek",
-    "section": "",
-    "text": "Suasana pertemuan alumni dalam diskusi santai penuh semangat dan kebersamaan pada tanggal 12 july 2025 di Warkop Phoenampungan\n\n\nHasil diskusi Tudang Sipulung\n\nPembuatan Direktori Alumni: menggunakan direktori ini, alumni dapat melakukan pemcarian alumni berdasarkan filter yang diinginkan seperti tahun lulus, jurusan, pekerjaan, dan lain sebagainya.\nPembaharuan Berita Secara Berkala: Spotlights Bulanan, Pencapain Karir, dan Pengumuman Lowongan Pekerjaan\nFormulir Pembaruan yang Mudah: Kirim informasi terbaru dengan mudah melalui formulir sederhana pada website alumni\n\n\n\nSegera Hadir\n\nAlumni Database\n\nPencarian Direktori: Terhubung kembali dengan teman seangkatan dan temukan koneksi baru sesama alumni Unhas di Jabodetabek\nKirim Informasi Terbaru Anda: Bagikan pencapaian dan perkembangan karier\n\nProgram pendampingan (mentorship)\nGrup jejaring berdasarkan industri\nIntegrasi layanan karier\n\nKami sangat antusias membangun komunitas ini bersama Anda dan tak sabar untuk membagikan kisah-kisah sukses Anda!\n\nPertanyaan lebih lanjut dapat menghubungi kami? Kontak Kami di admin@alumni.org",
-    "crumbs": [
-      "Kabar Alumni",
-      "Tudang Sipulung Ika Unhas Jabodetabek"
-    ]
-  },
-  {
-    "objectID": "news/2024-01-15-welcome.html#a-new-chapter-for-our-alumni-community",
-    "href": "news/2024-01-15-welcome.html#a-new-chapter-for-our-alumni-community",
-    "title": "Welcome to Our New Alumni Platform",
-    "section": "",
-    "text": "We’re thrilled to announce the launch of our new alumni tracking and news platform! This modern, user-friendly website will serve as your central hub for staying connected with fellow graduates and our institution.\n\n\n\nEnhanced Alumni Directory: Search by graduation year, major, location, or industry\nRegular News Updates: Monthly spotlights, career achievements, and community news\nEasy Update Submission: Simple form to share your latest professional updates\nMobile-Friendly Design: Access the platform from any device\n\n\n\n\n\nBrowse the Directory: Reconnect with classmates and discover new connections\nSubmit Your Updates: Share your career milestones and achievements\nSubscribe to Updates: Stay informed about community news and events\n\n\n\n\n\nAlumni event calendar\nMentorship program matching\nIndustry-specific networking groups\nCareer services integration\n\nWe’re excited to build this community together and look forward to sharing your success stories!\n\nQuestions about the platform? Contact us at admin@alumni.org",
-    "crumbs": [
-      "Kabar Alumni",
-      "Welcome to Our New Alumni Platform"
-    ]
-  },
-  {
-    "objectID": "alumni/submit.html",
-    "href": "alumni/submit.html",
-    "title": "Submit Alumni Updates",
-    "section": "",
-    "text": "Help us keep our alumni community informed about your latest professional achievements, career moves, and personal milestones.\n\n\nNote: This is a sample form. In a real implementation, you would use a form service like Formspree, Netlify Forms, or a custom backend.\n\n\n\nFull Name: ________________\nGraduation Year: ________________\nDegree/Major: ________________\nCurrent Email: ________________\n\n\n\n\n\nCurrent Position: ________________\nCompany/Organization: ________________\nIndustry: ________________\nLocation: ________________\nLinkedIn Profile: ________________\n\n\n\n\nPlease share any notable achievements, career moves, awards, or other news you’d like to highlight:\n\n\n\n\nInclude in alumni directory\nAllow contact from other alumni\nInclude in news updates/spotlights\nShare with current students for mentorship\n\n\n\n\n\n\nUpdates are reviewed before publication\nAll information is kept confidential according to your privacy preferences\nWe typically process submissions within 5-7 business days\nHigh-impact achievements may be featured in our news section\n\n\n\n\nContact our alumni relations team at admin@alumni.org or call (555) 123-4567.\n\nThank you for staying connected with our alumni community!",
-    "crumbs": [
-      "Alumni",
-      "Submit Alumni Updates"
-    ]
-  },
-  {
-    "objectID": "alumni/submit.html#share-your-achievements",
-    "href": "alumni/submit.html#share-your-achievements",
-    "title": "Submit Alumni Updates",
-    "section": "",
-    "text": "Help us keep our alumni community informed about your latest professional achievements, career moves, and personal milestones.\n\n\nNote: This is a sample form. In a real implementation, you would use a form service like Formspree, Netlify Forms, or a custom backend.\n\n\n\nFull Name: ________________\nGraduation Year: ________________\nDegree/Major: ________________\nCurrent Email: ________________\n\n\n\n\n\nCurrent Position: ________________\nCompany/Organization: ________________\nIndustry: ________________\nLocation: ________________\nLinkedIn Profile: ________________\n\n\n\n\nPlease share any notable achievements, career moves, awards, or other news you’d like to highlight:\n\n\n\n\nInclude in alumni directory\nAllow contact from other alumni\nInclude in news updates/spotlights\nShare with current students for mentorship\n\n\n\n\n\n\nUpdates are reviewed before publication\nAll information is kept confidential according to your privacy preferences\nWe typically process submissions within 5-7 business days\nHigh-impact achievements may be featured in our news section\n\n\n\n\nContact our alumni relations team at admin@alumni.org or call (555) 123-4567.\n\nThank you for staying connected with our alumni community!",
-    "crumbs": [
-      "Alumni",
-      "Submit Alumni Updates"
-    ]
-  },
-  {
-    "objectID": "news/index.html#kabar-terbaru",
-    "href": "news/index.html#kabar-terbaru",
-    "title": "Alumni News & Tracking",
-    "section": "Kabar Terbaru",
-    "text": "Kabar Terbaru",
-    "crumbs": [
-      "Kabar Alumni",
-      "Kabar Terbaru"
-    ]
-  },
-  {
-    "objectID": "news/2024-02-20-alumni-spotlight.html#dari-dokter-hingga-direktur",
-    "href": "news/2024-02-20-alumni-spotlight.html#dari-dokter-hingga-direktur",
-    "title": "Alumni Spotlight: Dr. dr. Andi Afdal Abdullah, MBA, AAK",
-    "section": "Dari Dokter Hingga Direktur",
-    "text": "Dari Dokter Hingga Direktur\nKami dengan senang hati menampilkan Dr. dr. Andi Afdal Abdullah, MBA, AAK yang kerap disapa dengan “Kanda Afdal” dalam Sorotan Alumni bulan ini. Kanda Afdal merupakan seorang dokter yang menempuh pendidikan Strata-1 (S1) di Fakultas Kedokteran Universitas Hasanuddin dan saat ini sedang menempati posisi sebagai Direktur Sumber Daya Manusia (SDM) dan Umum Badan Penyelenggara Jaminan Sosial (BPJS) Kesehatan RI. Melalui lembaga negara tersebut, kanda afdal berperan aktif dalam mewujudkan layanan Jaminan Kesehatan Nasional (JKN) yang humanis dan berkelanjutan.\n\nPerjalanan Kanda Afdal\nBerawal dari latar belakang pendidikan sebagai seorang dokter, ia meniti karier dalam dunia medis dengan komitmen dan semangat tinggi. Namun, seiring perjalanan waktu, gairah belajarnya membawanya keluar dari sekat disiplin ilmu kedokteran. Kini, ia justru lebih intens mendalami ekonomi, manajemen, sosial budaya, bahkan politik, bidang-bidang yang memperkaya cara pandangnya terhadap manusia, masyarakat, dan dinamika kehidupan.\nHal ini menjadi bekal Kanda Afdal dalam mendedikasikan dirinya selama lebih dari 10 tahun di PT ASKES. Hingga saat ini beliau aktif berkhidmat di BPJS Kesehatan RI sebagai seorang profesional yang juga menjabat Direktur SDM dan Umum pada lembaga tersebut. Terbaru, beliau terpilih sebagai Ketua IKA Unhas wilayah Jabodetabek untuk periode 2025-2029.\nDi luar dunia akademik dan profesional, ia dikenal sebagai sosok yang aktif dan penuh semangat. Ia gemar berolahraga, membaca, dan menulis. Dunia sepakbola pun menjadi bagian tak terpisahkan dari dirinya. Ia adalah penggemar berat AC Milan dan Liverpool, sekaligus mengapresiasi beberapa klub “medioker” yang menurutnya tetap menarik untuk diikuti. Namun, satu kecintaan yang tak tergoyahkan adalah PSM Makassar—klub yang ia dukung sepenuh hati sebagai fans fanatik.\n\n“Ada banyak lagi hal didunia ini yang saya rasa wajib untuk di eksplor… karena diatas langit masih ada langit” - Andi Afdal\n\n\n\nTerhubung dengan kanda afdal\n\nLinkedIn: linkedin.com/in/andi-afdal\nCompany Website: bpjs-kesehatan.go.id\nEmail: -\n\n\nTahu alumni yang harus kami fitur pada laman ini? nominasikan alumni",
-    "crumbs": [
-      "Kabar Alumni",
-      "Alumni Spotlight: Dr. dr. Andi Afdal Abdullah, MBA, AAK"
-    ]
-  },
-  {
-    "objectID": "news/2024-01-15-welcome.html#sebuah-inisiatif-agar-setiap-alumni-dapat-terus-bersilaturahmi",
-    "href": "news/2024-01-15-welcome.html#sebuah-inisiatif-agar-setiap-alumni-dapat-terus-bersilaturahmi",
-    "title": "Selamat Datang di Portal IKA Unhas Jabodetabek",
-    "section": "",
-    "text": "We’re thrilled to announce the launch of our new alumni tracking and news platform! This modern, user-friendly website will serve as your central hub for staying connected with fellow graduates and our institution.\n\n\n\nEnhanced Alumni Directory: Search by graduation year, major, location, or industry\nRegular News Updates: Monthly spotlights, career achievements, and community news\nEasy Update Submission: Simple form to share your latest professional updates\nMobile-Friendly Design: Access the platform from any device\n\n\n\n\n\nBrowse the Directory: Reconnect with classmates and discover new connections\nSubmit Your Updates: Share your career milestones and achievements\nSubscribe to Updates: Stay informed about community news and events\n\n\n\n\n\nAlumni event calendar\nMentorship program matching\nIndustry-specific networking groups\nCareer services integration\n\nWe’re excited to build this community together and look forward to sharing your success stories!\n\nQuestions about the platform? Contact us at admin@alumni.org",
-    "crumbs": [
-      "Kabar Alumni",
-      "Selamat Datang di Portal IKA Unhas Jabodetabek"
-    ]
-  },
-  {
-    "objectID": "news/2024-01-15-welcome.html#sebuah-inisiatif-agar-alumni-terus-terhubung",
-    "href": "news/2024-01-15-welcome.html#sebuah-inisiatif-agar-alumni-terus-terhubung",
-    "title": "Selamat Datang di Portal IKA Unhas Jabodetabek",
-    "section": "",
-    "text": "We’re thrilled to announce the launch of our new alumni tracking and news platform! This modern, user-friendly website will serve as your central hub for staying connected with fellow graduates and our institution.\n\n\n\nEnhanced Alumni Directory: Search by graduation year, major, location, or industry\nRegular News Updates: Monthly spotlights, career achievements, and community news\nEasy Update Submission: Simple form to share your latest professional updates\nMobile-Friendly Design: Access the platform from any device\n\n\n\n\n\nBrowse the Directory: Reconnect with classmates and discover new connections\nSubmit Your Updates: Share your career milestones and achievements\nSubscribe to Updates: Stay informed about community news and events\n\n\n\n\n\nAlumni event calendar\nMentorship program matching\nIndustry-specific networking groups\nCareer services integration\n\nWe’re excited to build this community together and look forward to sharing your success stories!\n\nQuestions about the platform? Contact us at admin@alumni.org",
-    "crumbs": [
-      "Kabar Alumni",
-      "Selamat Datang di Portal IKA Unhas Jabodetabek"
-    ]
-  },
-  {
-    "objectID": "news/2024-01-15-welcome.html#tudang-sipulung",
-    "href": "news/2024-01-15-welcome.html#tudang-sipulung",
-    "title": "Selamat Datang di Portal IKA Unhas Jabodetabek",
-    "section": "",
-    "text": "We’re thrilled to announce the launch of our new alumni tracking and news platform! This modern, user-friendly website will serve as your central hub for staying connected with fellow graduates and our institution.\n\n\n\nEnhanced Alumni Directory: Search by graduation year, major, location, or industry\nRegular News Updates: Monthly spotlights, career achievements, and community news\nEasy Update Submission: Simple form to share your latest professional updates\nMobile-Friendly Design: Access the platform from any device\n\n\n\n\n\nBrowse the Directory: Reconnect with classmates and discover new connections\nSubmit Your Updates: Share your career milestones and achievements\nSubscribe to Updates: Stay informed about community news and events\n\n\n\n\n\nAlumni event calendar\nMentorship program matching\nIndustry-specific networking groups\nCareer services integration\n\nWe’re excited to build this community together and look forward to sharing your success stories!\n\nQuestions about the platform? Contact us at admin@alumni.org",
-    "crumbs": [
-      "Kabar Alumni",
-      "Selamat Datang di Portal IKA Unhas Jabodetabek"
-    ]
+    "text": "Tetap terhubung dengan sesama lulusan, ikuti perkembangan karier mereka, dan temukan berita terbaru dari jaringan alumni kami yang dinamis.\n\n\nKabar Terbaru\n\n\n\nSorotan Alumni Terbaru\nSimak cerita Dr. dr. Andi Afdal Abdullah, MBA, AAK dari dokter hingga menjadi Direktur BPJS Kesehatan RI. Baca Lebih Lanjut →\n\n\nTudang Sipulung Alumni\nHasil diskusi dan rencana pengembangan portal alumni IKA Unhas Jabodetabek. Baca Lebih Lanjut →\n\n\n\n\nQuick Links\n\nAlumni Directory - Find and connect with fellow graduates\nSubmit Updates - Share your latest achievements\nNews Archive - Browse all news and updates\n\n\n\nBy the Numbers\n\n\n\nMetric\nCount\n\n\n\n\nTotal Alumni\n0\n\n\nCountries Represented\n0\n\n\nActive Profiles\n0\n\n\nRecent Updates\n0\n\n\n\n\n\nLast updated: ?meta:date"
   },
   {
     "objectID": "news/2025-07-15-kabar-terbaru.html",
     "href": "news/2025-07-15-kabar-terbaru.html",
     "title": "Tudang Sipulung Ika Unhas Jabodetabek",
     "section": "",
-    "text": "Suasana pertemuan alumni dalam diskusi santai penuh semangat dan kebersamaan pada tanggal 12 july 2025 di Warkop Phoenampungan\n\n\nHasil diskusi Tudang Sipulung\n\nPembuatan Direktori Alumni: menggunakan direktori ini, alumni dapat melakukan pemcarian alumni berdasarkan filter yang diinginkan seperti tahun lulus, jurusan, pekerjaan, dan lain sebagainya.\nPembaharuan Berita Secara Berkala: Spotlights Bulanan, Pencapain Karir, dan Pengumuman Lowongan Pekerjaan\nFormulir Pembaruan yang Mudah: Kirim informasi terbaru dengan mudah melalui formulir sederhana pada website alumni\n\n\n\nSegera Hadir\n\nAlumni Database\n\nPencarian Direktori: Terhubung kembali dengan teman seangkatan dan temukan koneksi baru sesama alumni Unhas di Jabodetabek\nKirim Informasi Terbaru Anda: Bagikan pencapaian dan perkembangan karier\n\nProgram pendampingan (mentorship)\nGrup jejaring berdasarkan industri\nIntegrasi layanan karier\n\nKami sangat antusias membangun komunitas ini bersama Anda dan tak sabar untuk membagikan kisah-kisah sukses Anda!\n\nPertanyaan lebih lanjut dapat menghubungi kami? Kontak Kami di admin@alumni.org",
-    "crumbs": [
-      "Kabar Alumni",
-      "Tudang Sipulung Ika Unhas Jabodetabek"
-    ]
+    "text": "Suasana pertemuan alumni dalam diskusi santai penuh semangat dan kebersamaan pada tanggal 12 july 2025 di Warkop Phoenampungan\n\n\nHasil diskusi Tudang Sipulung\n\nPembuatan Direktori Alumni: menggunakan direktori ini, alumni dapat melakukan pemcarian alumni berdasarkan filter yang diinginkan seperti tahun lulus, jurusan, pekerjaan, dan lain sebagainya.\nPembaharuan Berita Secara Berkala: Spotlights Bulanan, Pencapain Karir, dan Pengumuman Lowongan Pekerjaan\nFormulir Pembaruan yang Mudah: Kirim informasi terbaru dengan mudah melalui formulir sederhana pada website alumni\n\n\n\nSegera Hadir\n\nAlumni Database\n\nPencarian Direktori: Terhubung kembali dengan teman seangkatan dan temukan koneksi baru sesama alumni Unhas di Jabodetabek\nKirim Informasi Terbaru Anda: Bagikan pencapaian dan perkembangan karier\n\nProgram pendampingan (mentorship)\nGrup jejaring berdasarkan industri\nIntegrasi layanan karier\n\nKami sangat antusias membangun komunitas ini bersama Anda dan tak sabar untuk membagikan kisah-kisah sukses Anda!\n\nPertanyaan lebih lanjut dapat menghubungi kami? Kontak Kami di admin@alumni.org"
   },
   {
     "objectID": "news/2025-07-15-alumni-spotlight.html",
     "href": "news/2025-07-15-alumni-spotlight.html",
     "title": "Alumni Spotlight: Dr. dr. Andi Afdal Abdullah, MBA, AAK",
     "section": "",
-    "text": "Dr. dr. Andi Afdal Abdullah, MBA, AAK",
-    "crumbs": [
-      "Kabar Alumni",
-      "Alumni Spotlight: Dr. dr. Andi Afdal Abdullah, MBA, AAK"
-    ]
+    "text": "Dr. dr. Andi Afdal Abdullah, MBA, AAK"
   },
   {
     "objectID": "news/2025-07-15-alumni-spotlight.html#dari-dokter-hingga-direktur",
     "href": "news/2025-07-15-alumni-spotlight.html#dari-dokter-hingga-direktur",
     "title": "Alumni Spotlight: Dr. dr. Andi Afdal Abdullah, MBA, AAK",
     "section": "Dari Dokter Hingga Direktur",
-    "text": "Dari Dokter Hingga Direktur\nKami dengan senang hati menampilkan Dr. dr. Andi Afdal Abdullah, MBA, AAK yang kerap disapa dengan “Kanda Afdal” dalam Sorotan Alumni bulan ini. Kanda Afdal merupakan seorang dokter yang menempuh pendidikan Strata-1 (S1) di Fakultas Kedokteran Universitas Hasanuddin dan saat ini sedang menempati posisi sebagai Direktur Sumber Daya Manusia (SDM) dan Umum Badan Penyelenggara Jaminan Sosial (BPJS) Kesehatan RI. Melalui lembaga negara tersebut, kanda afdal berperan aktif dalam mewujudkan layanan Jaminan Kesehatan Nasional (JKN) yang humanis dan berkelanjutan.\n\nPerjalanan Kanda Afdal\nBerawal dari latar belakang pendidikan sebagai seorang dokter, ia meniti karier dalam dunia medis dengan komitmen dan semangat tinggi. Namun, seiring perjalanan waktu, gairah belajarnya membawanya keluar dari sekat disiplin ilmu kedokteran. Kini, ia justru lebih intens mendalami ekonomi, manajemen, sosial budaya, bahkan politik, bidang-bidang yang memperkaya cara pandangnya terhadap manusia, masyarakat, dan dinamika kehidupan.\nHal ini menjadi bekal Kanda Afdal dalam mendedikasikan dirinya selama lebih dari 10 tahun di PT ASKES. Hingga saat ini beliau aktif berkhidmat di BPJS Kesehatan RI sebagai seorang profesional yang juga menjabat Direktur SDM dan Umum pada lembaga tersebut. Terbaru, beliau terpilih sebagai Ketua IKA Unhas wilayah Jabodetabek untuk periode 2025-2029.\nDi luar dunia akademik dan profesional, ia dikenal sebagai sosok yang aktif dan penuh semangat. Ia gemar berolahraga, membaca, dan menulis. Dunia sepakbola pun menjadi bagian tak terpisahkan dari dirinya. Ia adalah penggemar berat AC Milan dan Liverpool, sekaligus mengapresiasi beberapa klub “medioker” yang menurutnya tetap menarik untuk diikuti. Namun, satu kecintaan yang tak tergoyahkan adalah PSM Makassar—klub yang ia dukung sepenuh hati sebagai fans fanatik.\n\n“Ada banyak lagi hal didunia ini yang saya rasa wajib untuk di eksplor… karena diatas langit masih ada langit” - Andi Afdal\n\n\n\nTerhubung dengan kanda afdal\n\nLinkedIn: linkedin.com/in/andi-afdal\nCompany Website: bpjs-kesehatan.go.id\nEmail: -\n\n\nTahu alumni yang harus kami fitur pada laman ini? nominasikan alumni",
-    "crumbs": [
-      "Kabar Alumni",
-      "Alumni Spotlight: Dr. dr. Andi Afdal Abdullah, MBA, AAK"
-    ]
+    "text": "Dari Dokter Hingga Direktur\nKami dengan senang hati menampilkan Dr. dr. Andi Afdal Abdullah, MBA, AAK yang kerap disapa dengan “Kanda Afdal” dalam Sorotan Alumni bulan ini. Kanda Afdal merupakan seorang dokter yang menempuh pendidikan Strata-1 (S1) di Fakultas Kedokteran Universitas Hasanuddin dan saat ini sedang menempati posisi sebagai Direktur Sumber Daya Manusia (SDM) dan Umum Badan Penyelenggara Jaminan Sosial (BPJS) Kesehatan RI. Melalui lembaga negara tersebut, kanda afdal berperan aktif dalam mewujudkan layanan Jaminan Kesehatan Nasional (JKN) yang humanis dan berkelanjutan.\n\nPerjalanan Kanda Afdal\nBerawal dari latar belakang pendidikan sebagai seorang dokter, ia meniti karier dalam dunia medis dengan komitmen dan semangat tinggi. Namun, seiring perjalanan waktu, gairah belajarnya membawanya keluar dari sekat disiplin ilmu kedokteran. Kini, ia justru lebih intens mendalami ekonomi, manajemen, sosial budaya, bahkan politik, bidang-bidang yang memperkaya cara pandangnya terhadap manusia, masyarakat, dan dinamika kehidupan.\nHal ini menjadi bekal Kanda Afdal dalam mendedikasikan dirinya selama lebih dari 10 tahun di PT ASKES. Hingga saat ini beliau aktif berkhidmat di BPJS Kesehatan RI sebagai seorang profesional yang juga menjabat Direktur SDM dan Umum pada lembaga tersebut. Terbaru, beliau terpilih sebagai Ketua IKA Unhas wilayah Jabodetabek untuk periode 2025-2029.\nDi luar dunia akademik dan profesional, ia dikenal sebagai sosok yang aktif dan penuh semangat. Ia gemar berolahraga, membaca, dan menulis. Dunia sepakbola pun menjadi bagian tak terpisahkan dari dirinya. Ia adalah penggemar berat AC Milan dan Liverpool, sekaligus mengapresiasi beberapa klub “medioker” yang menurutnya tetap menarik untuk diikuti. Namun, satu kecintaan yang tak tergoyahkan adalah PSM Makassar—klub yang ia dukung sepenuh hati sebagai fans fanatik.\n\n“Ada banyak lagi hal didunia ini yang saya rasa wajib untuk di eksplor… karena diatas langit masih ada langit” - Andi Afdal\n\n\n\nTerhubung dengan kanda afdal\n\nLinkedIn: linkedin.com/in/andi-afdal\nCompany Website: bpjs-kesehatan.go.id\nEmail: -\n\n\nTahu alumni yang harus kami fitur pada laman ini? nominasikan alumni"
   },
   {
-    "objectID": "alumni/index.html#terhubung-dengan-sesama-alumni-unhas-di-jabodetabek",
-    "href": "alumni/index.html#terhubung-dengan-sesama-alumni-unhas-di-jabodetabek",
-    "title": "Jaringan Alumni",
+    "objectID": "alumni/submit.html",
+    "href": "alumni/submit.html",
+    "title": "Submit Alumni Updates",
     "section": "",
-    "text": "Jaringan alumni kami tersebar di berbagai industri dan lembaga pemerintahan. Gunakan direktori kami untuk menemukan teman seangkatan, mentor, dan koneksi profesional.\n\n\n\n\n\n\nTotal Alumni\n\n\n\nSektor Pemerintahan\n\n\n\nSektor Swasta\n\n\n\nSektor Professional\n\n\n\nSektor Mandiri\n\n\n\nProfil Aktif\n\n\n\n\n\nKementerian (0 alumni)\nBUMN (0 alumni)\nPEMDA (0 alumni)\nProfessional (0 alumni)\nPengusaha (0 alumni)\n\n\n\n\n\nAlumni Directory - Search our complete database\nSubmit Updates - Share your achievements\nCareer Services - Professional development resources\n\n\n\n\n\n\n\n\n\nName\nClass Year\nCurrent Role\nCompany\n\n\n\n\nSarah Johnson\n2018\nFounder & CEO\nInnovateTech Solutions\n\n\nMichael Chen\n2015\nSenior Director\nGlobal Finance Corp\n\n\nLisa Rodriguez\n2020\nProduct Manager\nTechStart Inc\n\n\nDavid Kim\n2017\nResearch Scientist\nBioMed Research\n\n\n\nView Full Directory →",
-    "crumbs": [
-      "Portal Alumni",
-      "Jaringan Alumni"
-    ]
+    "text": "Help us keep our alumni community informed about your latest professional achievements, career moves, and personal milestones.\n\n\n\n\n\n\nFull Name * \n\n\nGraduation Year * \n\n\nDegree/Major * \n\n\nCurrent Email * \n\n\n\n\n\nCurrent Position \n\n\nCompany/Organization \n\n\nIndustry  Select Industry Kementerian BUMN PEMDA Swasta Professional Pengusaha Akademisi Konsultan Lainnya \n\n\nLocation \n\n\nLinkedIn Profile \n\n\n\n\n\nNotable Achievements\n\n\n\n\n\n\n  Include in alumni directory \n\n\n  Allow contact from other alumni \n\n\n  Include in news updates/spotlights \n\n\n  Available for mentorship \n\n\n\n\nSubmit Update\n\n\nReset Form\n\n\n\n\n\n\nYour information has been submitted successfully. We’ll review it and update our records within 5-7 business days.\n\n\n\n\n\nThere was an error submitting your information. Please try again or contact us at admin@alumni.org.\n\n\n\n\n\n\nUpdates are reviewed before publication\nAll information is kept confidential according to your privacy preferences\nWe typically process submissions within 5-7 business days\nHigh-impact achievements may be featured in our news section\n\n\n\n\nContact our alumni relations team at admin@alumni.org or call (555) 123-4567.\n\nThank you for staying connected with our alumni community!"
+  },
+  {
+    "objectID": "alumni/submit.html#share-your-achievements",
+    "href": "alumni/submit.html#share-your-achievements",
+    "title": "Submit Alumni Updates",
+    "section": "",
+    "text": "Help us keep our alumni community informed about your latest professional achievements, career moves, and personal milestones.\n\n\n\n\n\n\nFull Name * \n\n\nGraduation Year * \n\n\nDegree/Major * \n\n\nCurrent Email * \n\n\n\n\n\nCurrent Position \n\n\nCompany/Organization \n\n\nIndustry  Select Industry Kementerian BUMN PEMDA Swasta Professional Pengusaha Akademisi Konsultan Lainnya \n\n\nLocation \n\n\nLinkedIn Profile \n\n\n\n\n\nNotable Achievements\n\n\n\n\n\n\n  Include in alumni directory \n\n\n  Allow contact from other alumni \n\n\n  Include in news updates/spotlights \n\n\n  Available for mentorship \n\n\n\n\nSubmit Update\n\n\nReset Form\n\n\n\n\n\n\nYour information has been submitted successfully. We’ll review it and update our records within 5-7 business days.\n\n\n\n\n\nThere was an error submitting your information. Please try again or contact us at admin@alumni.org.\n\n\n\n\n\n\nUpdates are reviewed before publication\nAll information is kept confidential according to your privacy preferences\nWe typically process submissions within 5-7 business days\nHigh-impact achievements may be featured in our news section\n\n\n\n\nContact our alumni relations team at admin@alumni.org or call (555) 123-4567.\n\nThank you for staying connected with our alumni community!"
   }
 ]

@@ -12,32 +12,32 @@ Jaringan alumni kami tersebar di berbagai industri dan lembaga pemerintahan. Gun
 ::: {.grid}
 
 ::: {.g-col-4}
-### 0
+### <span id="total-alumni">1</span>
 **Total Alumni**
 :::
 
 ::: {.g-col-4}
-### 0
+### <span id="sector-pemerintahan">0</span>
 **Sektor Pemerintahan**
 :::
 
 ::: {.g-col-4}
-### 0
+### <span id="sector-swasta">0</span>
 **Sektor Swasta**
 :::
 
 ::: {.g-col-4}
-### 0
+### <span id="sector-professional">0</span>
 **Sektor Professional**
 :::
 
 ::: {.g-col-4}
-### 0
+### <span id="sector-mandiri">0</span>
 **Sektor Mandiri**
 :::
 
 ::: {.g-col-4}
-### 0
+### <span id="active-profiles">0</span>
 **Profil Aktif**
 :::
 
@@ -45,11 +45,9 @@ Jaringan alumni kami tersebar di berbagai industri dan lembaga pemerintahan. Gun
 
 ### Sektor Populer
 
-- Kementerian (0 alumni)
-- BUMN (0 alumni)
-- PEMDA (0 alumni)
-- Professional (0 alumni)
-- Pengusaha (0 alumni)
+<div id="popular-sectors">
+- Memuat data...
+</div>
 
 ### Resources
 
@@ -61,11 +59,96 @@ Jaringan alumni kami tersebar di berbagai industri dan lembaga pemerintahan. Gun
 
 #### Recent Updates
 
-| Name | Class Year | Current Role | Company |
-|------|------------|--------------|---------|
-| Sarah Johnson | 2018 | Founder & CEO | InnovateTech Solutions |
-| Michael Chen | 2015 | Senior Director | Global Finance Corp |
-| Lisa Rodriguez | 2020 | Product Manager | TechStart Inc |
-| David Kim | 2017 | Research Scientist | BioMed Research |
+<div id="recent-updates">
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Class Year</th>
+<th>Current Role</th>
+<th>Company</th>
+</tr>
+</thead>
+<tbody id="alumni-table">
+<tr>
+<td colspan="4">Memuat data...</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 [View Full Directory →](directory.qmd)
+
+<script>
+// Load alumni stats when page loads
+document.addEventListener('DOMContentLoaded', async function() {
+    try {
+        // Load stats
+        const stats = await AlumniAPI.getAlumniStats();
+        
+        // Update total alumni
+        document.getElementById('total-alumni').textContent = stats.total;
+        
+        // Calculate sector counts
+        const sectorCounts = {
+            pemerintahan: 0,
+            swasta: 0,
+            professional: 0,
+            mandiri: 0
+        };
+        
+        // Count by industry sectors
+        Object.entries(stats.byIndustry).forEach(([industry, count]) => {
+            const lowerIndustry = industry.toLowerCase();
+            if (lowerIndustry.includes('kementerian') || lowerIndustry.includes('pemda') || lowerIndustry.includes('pemerintah')) {
+                sectorCounts.pemerintahan += count;
+            } else if (lowerIndustry.includes('bumn') || lowerIndustry.includes('swasta')) {
+                sectorCounts.swasta += count;
+            } else if (lowerIndustry.includes('professional') || lowerIndustry.includes('konsultan')) {
+                sectorCounts.professional += count;
+            } else if (lowerIndustry.includes('pengusaha') || lowerIndustry.includes('wirausaha')) {
+                sectorCounts.mandiri += count;
+            }
+        });
+        
+        // Update sector stats
+        document.getElementById('sector-pemerintahan').textContent = sectorCounts.pemerintahan;
+        document.getElementById('sector-swasta').textContent = sectorCounts.swasta;
+        document.getElementById('sector-professional').textContent = sectorCounts.professional;
+        document.getElementById('sector-mandiri').textContent = sectorCounts.mandiri;
+        document.getElementById('active-profiles').textContent = stats.total;
+        
+        // Update popular sectors
+        const popularSectors = Object.entries(stats.byIndustry)
+            .sort(([,a], [,b]) => b - a)
+            .slice(0, 5)
+            .map(([industry, count]) => `- ${industry} (${count} alumni)`)
+            .join('\n');
+            
+        document.getElementById('popular-sectors').innerHTML = popularSectors || '- Belum ada data';
+        
+        // Load recent alumni
+        const recentAlumni = await AlumniAPI.getAlumni();
+        const tableBody = document.getElementById('alumni-table');
+        
+        if (recentAlumni.length > 0) {
+            tableBody.innerHTML = recentAlumni.slice(0, 4).map(alumni => `
+                <tr>
+                    <td>${alumni.nama || 'N/A'}</td>
+                    <td>${alumni.tahun_lulus || 'N/A'}</td>
+                    <td>${alumni.posisi_saat_ini || 'N/A'}</td>
+                    <td>${alumni.perusahaan || 'N/A'}</td>
+                </tr>
+            `).join('');
+        } else {
+            tableBody.innerHTML = '<tr><td colspan="4">Belum ada data alumni</td></tr>';
+        }
+        
+    } catch (error) {
+        console.error('Error loading alumni data:', error);
+        document.getElementById('total-alumni').textContent = 'Error';
+        document.getElementById('popular-sectors').innerHTML = '- Error memuat data';
+        document.getElementById('alumni-table').innerHTML = '<tr><td colspan="4">Error memuat data</td></tr>';
+    }
+});
+</script>

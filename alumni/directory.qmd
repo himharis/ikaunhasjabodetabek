@@ -4,49 +4,43 @@ title: "Alumni Directory"
 
 ## Search Our Alumni Network
 
-*Note: This is a sample directory. In a real implementation, you would integrate with a database or CMS.*
+Use the filters below to find specific alumni:
 
 ### Search Filters
 
-Use the filters below to find specific alumni:
+<div class="filter-section">
+<div class="filter-group">
+<label for="year-filter">Graduation Year:</label>
+<select id="year-filter">
+<option value="">All Years</option>
+</select>
+</div>
 
-- **Graduation Year**: 2010-2024
-- **Major/Department**: All departments
-- **Location**: Global
-- **Industry**: All industries
+<div class="filter-group">
+<label for="industry-filter">Industry:</label>
+<select id="industry-filter">
+<option value="">All Industries</option>
+</select>
+</div>
+
+<div class="filter-group">
+<label for="location-filter">Location:</label>
+<input type="text" id="location-filter" placeholder="Enter location">
+</div>
+
+<button onclick="searchAlumni()">Search</button>
+<button onclick="clearFilters()">Clear</button>
+</div>
 
 ### Directory Listing
 
-#### Class of 2024
+<div id="alumni-results">
+<p>Loading alumni directory...</p>
+</div>
 
-**Emma Thompson** | Computer Science  
-*Software Engineer at Microsoft*  
-Location: Seattle, WA  
-[LinkedIn](https://linkedin.com/in/emmathompson) | emma.thompson@email.com
-
-**James Wilson** | Business Administration  
-*Marketing Manager at StartupCorp*  
-Location: New York, NY  
-[LinkedIn](https://linkedin.com/in/jameswilson) | james.wilson@email.com
-
-#### Class of 2023
-
-**Maria Garcia** | Biomedical Engineering  
-*Research Associate at MedTech Labs*  
-Location: Boston, MA  
-[LinkedIn](https://linkedin.com/in/mariagarcia) | maria.garcia@email.com
-
-**Alex Johnson** | Psychology  
-*Clinical Therapist at Community Health*  
-Location: Chicago, IL  
-[LinkedIn](https://linkedin.com/in/alexjohnson) | alex.johnson@email.com
-
-#### Class of 2022
-
-**Ryan Davis** | Mechanical Engineering  
-*Design Engineer at AutoCorp*  
-Location: Detroit, MI  
-[LinkedIn](https://linkedin.com/in/ryandavis) | ryan.davis@email.com
+<div id="no-results" style="display: none;">
+<p>No alumni found matching your criteria. Try adjusting your filters.</p>
+</div>
 
 ---
 
@@ -57,3 +51,193 @@ Alumni profiles are displayed based on individual privacy preferences. To update
 ### Not Listed?
 
 If you're an alumnus and don't see your profile, please [submit your information](submit.qmd) to be added to our directory.
+
+<script>
+let allAlumni = [];
+let filteredAlumni = [];
+
+// Load alumni data and populate filters
+document.addEventListener('DOMContentLoaded', async function() {
+    try {
+        // Load all alumni
+        allAlumni = await AlumniAPI.getAlumni();
+        filteredAlumni = allAlumni;
+        
+        // Populate filter options
+        populateFilters();
+        
+        // Display initial results
+        displayAlumni(filteredAlumni);
+        
+    } catch (error) {
+        console.error('Error loading alumni:', error);
+        document.getElementById('alumni-results').innerHTML = 
+            '<p>Error loading alumni directory. Please try again later.</p>';
+    }
+});
+
+function populateFilters() {
+    // Populate year filter
+    const yearFilter = document.getElementById('year-filter');
+    const years = [...new Set(allAlumni.map(a => a.tahun_lulus).filter(y => y))].sort((a, b) => b - a);
+    years.forEach(year => {
+        const option = document.createElement('option');
+        option.value = year;
+        option.textContent = year;
+        yearFilter.appendChild(option);
+    });
+    
+    // Populate industry filter
+    const industryFilter = document.getElementById('industry-filter');
+    const industries = [...new Set(allAlumni.map(a => a.industri).filter(i => i))].sort();
+    industries.forEach(industry => {
+        const option = document.createElement('option');
+        option.value = industry;
+        option.textContent = industry;
+        industryFilter.appendChild(option);
+    });
+}
+
+function searchAlumni() {
+    const yearFilter = document.getElementById('year-filter').value;
+    const industryFilter = document.getElementById('industry-filter').value;
+    const locationFilter = document.getElementById('location-filter').value.toLowerCase();
+    
+    filteredAlumni = allAlumni.filter(alumni => {
+        const yearMatch = !yearFilter || alumni.tahun_lulus == yearFilter;
+        const industryMatch = !industryFilter || alumni.industri === industryFilter;
+        const locationMatch = !locationFilter || 
+            (alumni.lokasi && alumni.lokasi.toLowerCase().includes(locationFilter));
+        
+        return yearMatch && industryMatch && locationMatch;
+    });
+    
+    displayAlumni(filteredAlumni);
+}
+
+function clearFilters() {
+    document.getElementById('year-filter').value = '';
+    document.getElementById('industry-filter').value = '';
+    document.getElementById('location-filter').value = '';
+    
+    filteredAlumni = allAlumni;
+    displayAlumni(filteredAlumni);
+}
+
+function displayAlumni(alumni) {
+    const resultsDiv = document.getElementById('alumni-results');
+    const noResultsDiv = document.getElementById('no-results');
+    
+    if (alumni.length === 0) {
+        resultsDiv.style.display = 'none';
+        noResultsDiv.style.display = 'block';
+        return;
+    }
+    
+    resultsDiv.style.display = 'block';
+    noResultsDiv.style.display = 'none';
+    
+    // Group alumni by graduation year
+    const groupedAlumni = {};
+    alumni.forEach(alumnus => {
+        const year = alumnus.tahun_lulus || 'Unknown';
+        if (!groupedAlumni[year]) {
+            groupedAlumni[year] = [];
+        }
+        groupedAlumni[year].push(alumnus);
+    });
+    
+    // Sort years in descending order
+    const sortedYears = Object.keys(groupedAlumni).sort((a, b) => {
+        if (a === 'Unknown') return 1;
+        if (b === 'Unknown') return -1;
+        return b - a;
+    });
+    
+    let html = '';
+    sortedYears.forEach(year => {
+        html += `<h4>Class of ${year}</h4>`;
+        groupedAlumni[year].forEach(alumnus => {
+            html += `
+                <div class="alumni-profile">
+                    <h5><strong>${alumnus.nama || 'N/A'}</strong> | ${alumnus.jurusan || 'N/A'}</h5>
+                    <p><em>${alumnus.posisi_saat_ini || 'N/A'} at ${alumnus.perusahaan || 'N/A'}</em></p>
+                    <p>Location: ${alumnus.lokasi || 'N/A'}</p>
+                    <p>Industry: ${alumnus.industri || 'N/A'}</p>
+                    ${alumnus.linkedin ? `<p><a href="${alumnus.linkedin}" target="_blank">LinkedIn</a></p>` : ''}
+                    ${alumnus.email ? `<p><a href="mailto:${alumnus.email}">${alumnus.email}</a></p>` : ''}
+                </div>
+            `;
+        });
+    });
+    
+    resultsDiv.innerHTML = html;
+}
+</script>
+
+<style>
+.filter-section {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.filter-group select, .filter-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.alumni-profile {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.alumni-profile h5 {
+    color: #DC3545;
+    margin-bottom: 10px;
+}
+
+.alumni-profile p {
+    margin: 5px 0;
+}
+
+.alumni-profile a {
+    color: #DC3545;
+    text-decoration: none;
+}
+
+.alumni-profile a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: #DC3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background: #800020;
+}
+</style>
